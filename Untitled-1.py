@@ -1,8 +1,8 @@
-a = int(input("Digite um valor para a:"))
-b = int(input("digite um valor para b:"))
+print("Bem vindo a academia Vip X")
+print("==========================")
+nome = str(input("digite o nome do cliente: "))
+Idade = int(input("digite a idade do cliente: "))
+altura = float(input("digite a altura do cliente: "))
 
-soma = a + b
-subt = a - b
-
-print(f"O resultado é {soma}")
-print(f"o resultado da subtração é {subt}")
+print(f"{nome} cadastro com sucesso!")
+print(f"com {Idade} anos e {altura}m.")
